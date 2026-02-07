@@ -6,7 +6,6 @@ public class ATMMachine
 			new Account(12345, 8080, "Rakesh", 8000),
 			new Account(12347, 9090, "Manoj", 5000),
 			new Account(12349, 1010, "Imran", 6000),
-			new Account(12345, 3030, "Suman", 4000),
 	};
 	public static Account getAccount(int accountNo)
 	{
@@ -82,7 +81,6 @@ public class ATMMachine
 				else if(choice == 4)
 				{
 					System.out.println("\n👋 Logged out successfully.");
-					System.out.println("Thank you");
 					break;
 				}
 				else
